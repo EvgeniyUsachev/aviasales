@@ -1,0 +1,24 @@
+.item {
+  margin-bottom: 10px;
+  &__header {
+    display: flex;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #a0b0b9;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  &__info {
+    display: flex;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #4a4a4a;
+    justify-content: space-between;
+  }
+  &__destination {
+    width: 33%;
+  }
+}
